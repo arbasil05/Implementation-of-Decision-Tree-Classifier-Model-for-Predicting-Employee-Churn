@@ -8,14 +8,22 @@ To write a program to implement the Decision Tree Classifier Model for Predictin
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. Load the Dataset
-2. Preprocess the Data
-3. Split the Data
-4. Build and Train the Model
-5.Evaluate the Model
-6.Predict New Data
+1. Start
+2. Load the Dataset
+3. Preprocess the Data
+4. Split the Data
+5. Build and Train the Model
+6. Evaluate the Model
+7. Stop
+
+
 
 ## Program:
+```
+Program to implement the the Logistic Regression Using Gradient Descent.
+Developed by: Abdur Rahman Basil A H
+RegisterNumber:  212223040002
+```
 ```
 import pandas as pd
 data = pd.read_csv("D:/introduction to ML/jupyter notebooks/mama/Employee.csv")
@@ -40,11 +48,6 @@ accuracy = metrics.accuracy_score(y_test,y_predict)
 accuracy
 dt.predict([[0.5,0.8,9,260,6,0,1,2]])
 
-/*
-Program to implement the the Logistic Regression Using Gradient Descent.
-Developed by: Abdur Rahman Basil A H
-RegisterNumber:  212223040002
-*/
 ```
 ## Output:
 ### Data.head():
